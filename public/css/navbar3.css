@@ -1,0 +1,6 @@
+.custom-navbar{
+        border: 1px solid white;
+        border-bottom-width: 3px;
+        border-bottom-color: rgba(9, 63, 104, 1);
+        border-bottom-style: solid;  /* Esta propiedad no es necesaria (se hereda) */
+      }

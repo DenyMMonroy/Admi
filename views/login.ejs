@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <%- include("templates/header") %>
+  <link rel="stylesheet" href="./css/login.css">
+
+</head>
+<body>
+  <%- include("templates/navbar3") %>
+  <div>
+    <h1 class="title custom-h1">ADMINISTRADOR DE PROYECTOS</h1>
+  </div>
+  <section class="section">
+    <div class="container is-widescreen"> 
+     <div class="container custom-container">
+      <div class="columns is-centered">
+        <div class="column is-5-tablet is-4-desktop is-3-widescreen">
+          <div class="box">
+            <h2 class="title custom-h2">Iniciar Sesión</h2>
+            <form>
+              <div class="field">
+                <label class="label custom-text-color">Usuario</label>
+                <div class="control">
+                  <input class="input" type="text" name="username" placeholder="Nombre de usuario" required>
+                </div>
+              </div>
+              <div class="field">
+                <label class="label custom-text-color">Contraseña</label>
+                <div class="control has-icons-left">
+                  <input class="input" type="password" name="password" id="password" placeholder="Contraseña" required>
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-lock"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="columns is-desktop">
+                    <div class="column"><label class="checkbox mt-3">
+                        <input type="checkbox" id="show_password_cb">
+                            Ver contraseña</div>
+                     <div class="column"> 
+                        <a 
+                            class="button is-text" 
+                            id="forget_password" 
+                        >
+                            Olvide mi contraseña
+                        </a>
+                     </div>
+                     
+                </div>
+            </div>
+              <div class="field">
+                <div class="control has-text-centered">
+                  <button class="button custom-color" type="submit">Iniciar Sesión</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+  </section>
+ 
+</body>
+</html>

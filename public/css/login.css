@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+    background-color: rgba(193, 207, 217, 1); 
+  }
+.custom-container{
+  background-color: rgba(193, 207, 217, 1);
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background-color:rgba(236, 243, 248, 1);
+  border-color: rgba(9, 63, 104, 1);
+ border-width: 1px;
+  border-style: outset;
+}
+.custom-color {
+  /*color del boton*/
+  background-color:rgba(9, 63, 104, 0.71);
+  /* color del texto del boton */
+  color: rgba(255, 250, 230, 1); 
+  /* borde del btn*/
+  border-radius: 20px;
+}
+.input {
+  background-color: rgba(9, 63, 104, 0.18);
+  border-radius: 15px ;
+}
+.custom-text-color {
+  color: rgba(9, 63, 104, 1); /* Color personalizado del texto del label */
+  /* Puedes ajustar otros estilos según sea necesario */
+}
+.custom-h2{
+  color: rgba(9, 63, 104, 1);
+  text-align: center; /* Centrar el texto horizontalmente */
+  margin-top: 20px;
+}
+.custom-h1{
+  color: rgba(9, 63, 104, 1);
+  text-align: center; /* Centrar el texto horizontalmente */
+  margin-top: 20px;
+}
